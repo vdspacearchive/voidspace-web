@@ -1,4 +1,4 @@
-Your new Social Media is here. (almost)
+<h1>Your new Social Media is here. (almost)</h1>
 
 Meet, Voidspace!
 
