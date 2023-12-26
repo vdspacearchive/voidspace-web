@@ -1,163 +1,163 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 body {
-    background-image: url("media/bg.png");
-    background-size: cover;
-    background-position: center;
-    height: 100vh; /* Ensure full-screen height */
-    margin: 0; /* Remove default margin */
-    font-family: 'Azeret Mono', monospace;
-    width: 100%;
-  }
-
-
-  .login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 560px;
-    gap: 12px;
-    
-  }
-  
-  h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: white;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-    color: white;
-  }
-  
-  input[type="text"],
-  input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border-bottom: 4px solid rgba(255, 255, 255, 0.13);
-    border-radius: 14px;
-    margin-bottom: 10px;
-    height: 62px;
-    background: #1D2029;
-    padding-left: 48px; /* Shift text to align with icons */
-    line-height: 62px; /* Match input field height */
-    color: white;
-    font-size: 20px;
-    font-family: 'Azeret Mono', monospace;
-  }
-  
-  button[type="submit"] {
-    background-color: #0085FF; /* Green */
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 14px;
-    cursor: pointer;
-    height: 62px;
-    width: 100%;
-    font-family: 'Azeret Mono', monospace;
-    font-size: 20px;
-  }
-
-  form {
-    width: 100%
-  }
-
-  .login-container img {
-    width: 416px;
-    max-width: 100%; /* Prevent exceeding container width */
-  }
-
-  .login-container p {
-    font-size: 16px;
-    text-align: center; /* Adjust textAlign as needed */
-    margin-top: 10px; /* Adjust margin as needed */
-    color: white;
-  }
-
-  .login-container p.tagline {
-    font-size: 20px;
-  }
-
-  label {
-    display: block; /* Ensure labels occupy full width */
-    position: relative;
-    padding-left: 56px; /* Adjust padding for icon space */
-    margin-bottom: 5px; /* Adjust spacing between fields */
-  }
-  
-  label span {
-    position: absolute;
-    top: 78%;
-    left: 10px; /* Adjust icon placement */
-    transform: translateY(90%);
-    font-size: 18px; /* Adjust icon size */
-    vertical-align: middle; /* Experiment with values */
-    padding-left: 8px; /* Adjust padding for icon space */
-  }
-
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+  background-image: url("media/bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Ensure full-screen height */
+  font-family: 'Azeret Mono', monospace;
 }
- 
-/* For older Chrome, Safari, and Opera */
-input[type="text"]::-webkit-input-placeholder,
-input[type="password"]::-webkit-input-placeholder {
+
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  gap: 12px;
+  max-width: 560px;
+  padding: 12px;
+  margin-top: 48px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.13);
+  border-radius: 14px;
+  margin-bottom: 10px;
+  height: 62px;
+  background: #1D2029;
+  padding-left: 48px; /* Shift text to align with icons */
+  line-height: 62px; /* Match input field height */
   color: white;
   font-size: 20px;
   font-family: 'Azeret Mono', monospace;
+}
+
+button[type="submit"] {
+  background-color: #0085FF; /* Green */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  height: 62px;
+  width: 100%;
+  font-family: 'Azeret Mono', monospace;
+  font-size: 20px;
+}
+
+form {
+  width: 100%
+}
+
+.login-container img {
+  width: 416px;
+  max-width: 100%; /* Prevent exceeding container width */
+}
+
+.login-container p {
+  font-size: 16px;
+  text-align: center; /* Adjust textAlign as needed */
+  margin-top: 10px; /* Adjust margin as needed */
+  color: white;
+}
+
+.login-container p.tagline {
+  font-size: 20px;
+}
+
+label {
+  display: block; /* Ensure labels occupy full width */
+  position: relative;
+  padding-left: 56px; /* Adjust padding for icon space */
+  margin-bottom: 5px; /* Adjust spacing between fields */
+}
+
+label span {
+  position: absolute;
+  top: 78%;
+  left: 10px; /* Adjust icon placement */
+  transform: translateY(90%);
+  font-size: 18px; /* Adjust icon size */
+  vertical-align: middle; /* Experiment with values */
+  padding-left: 8px; /* Adjust padding for icon space */
+}
+
+
+.material-symbols-outlined {
+font-variation-settings:
+'FILL' 0,
+'wght' 400,
+'GRAD' 0,
+'opsz' 24
+}
+
+/* For older Chrome, Safari, and Opera */
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder {
+color: white;
+font-size: 20px;
+font-family: 'Azeret Mono', monospace;
 }
 
 /* For older Firefox */
 input[type="text"]:-moz-placeholder,
 input[type="password"]:-moz-placeholder {
-  color: white;
-  font-size: 20px;
-  font-family: 'Azeret Mono', monospace;
+color: white;
+font-size: 20px;
+font-family: 'Azeret Mono', monospace;
 }
 /* For newer Firefox */
 input[type="text"]::-moz-placeholder,
 input[type="password"]::-moz-placeholder {
-  color: white;
-  font-size: 20px;
-  font-family: 'Azeret Mono', monospace;
+color: white;
+font-size: 20px;
+font-family: 'Azeret Mono', monospace;
 }
 
 /* For Internet Explorer 10+ */
 input[type="text"]:-ms-input-placeholder,
 input[type="password"]:-ms-input-placeholder {
-  color: white;
-  font-size: 20px;
-  font-family: 'Azeret Mono', monospace;
+color: white;
+font-size: 20px;
+font-family: 'Azeret Mono', monospace;
 }
 
 input:focus {
-    border-bottom: 4px solid #0085FF;
-  }
+  border-bottom: 4px solid #0085FF;
+}
 
-  a {
-    color: #0085FF;
-  }
+a {
+  color: #0085FF;
+}
 
-  .login-container img.ame {
-    font-size: 20px;
-    width: 260px;
-  }
+.login-container img.ame {
+  font-size: 20px;
+  width: 260px;
+}
 
-  .login-container img.team {
-    width: 102px;
-  }
+.login-container img.team {
+  width: 102px;
+}
