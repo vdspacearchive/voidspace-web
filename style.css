@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {
+  background-image: url("media/bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Ensure full-screen height */
+  margin: 0; /* Remove default margin */
+  font-family: 'Azeret Mono', monospace;
+  width: 100%;
+}
+
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 560px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+p {
+  text-align: center;
+  color:white
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.13);
+  border-radius: 14px;
+  margin-bottom: 10px;
+  height: 50px;
+  background: #1D2029;
+}
+
+button[type="submit"] {
+  background-color: #0085FF; /* Green */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  height: 62px;
+  width: 100%;
+  font-family: 'Azeret Mono', monospace;
+}
+
+form {
+  width: 100%
+}
+footer {
+  text-align: center; /* Center-align content */
+  -webkit-text-fill-color: white;
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.footer-image {
+  display: block; /* Ensure image behaves as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}
